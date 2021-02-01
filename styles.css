@@ -1,0 +1,174 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/07/18/07/maldives-1961132_960_720.jpg");
+  background-size: 100%;
+  font-family: "Amatic SC", cursive;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2%;
+  width: 80%;
+  height: 80%;
+  border: none;
+  border-radius: 18px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background: rgba(151, 240, 240, 0.644);
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 12%;
+  border-radius: 50%;
+  border: 7px solid #f06f8fe5;
+  box-shadow: 5px 5px 5px #000;
+}
+
+h1 {
+  color: #ffbd69;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 55px;
+  text-shadow: 3px 3px 3px black;
+}
+
+h2 {
+  color: #f06f8fe5;
+  text-align: center;
+  margin: 4px auto 20px auto;
+  font-size: 36px;
+  text-shadow: 1px 2px 3px black;
+}
+
+p {
+  color: rgb(11, 7, 12);
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 24px;
+  text-indent: 2.5em;
+  line-height: 1.5;
+  padding: 0 10% 0 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #f06f8fe5;
+  text-shadow: 2px 2px 2px rgb(8, 8, 8);
+}
+
+h3 {
+  display: block;
+  color: #080704;
+  text-align: center;
+  margin: 15px auto 6px auto;
+  padding: 18px 0 5px 0;
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+  text-shadow: 2px 2px 1px rgb(226, 216, 216);
+}
+
+.h3 {
+  display: block;
+  color: #1a1817;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 4px 0;
+  font-family: "Amatic SC", cursive;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0 15px;
+}
+
+button {
+  margin: 15px 15px;
+  height: 210px;
+  width: 260px;
+  border-radius: 7px;
+  border: 10px solid #f06f8fe5;
+  box-shadow: 5px 5px 5px black;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 3px 3px 2px black;
+  color: #f8b45b;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.thailand {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/726/original/thailand.jpg?1606930008");
+  background-size: 260px 210px;
+}
+
+.australia {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/727/original/australia.jpg?1606930025");
+  background-size: 260px 210px;
+}
+
+.unitedstates {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/728/original/usa.jpg?1606930038");
+  background-size: 260px 210px;
+}
+
+.iceland {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/729/original/iceland.jpg?1606930053");
+  background-size: 260px 210px;
+}
+
+.vietnam {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/730/original/wietnam.jpg?1606930085");
+  background-size: 260px 210px;
+}
+
+.carribean {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/003/731/original/carribean.jpg?1606930096");
+  background-size: 260px 210px;
+}
+
+h4 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  line-height: 1.5;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+h5 {
+  display: block;
+  font-size: 25px;
+  padding: 0;
+  margin: 0 auto;
+  color: black;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(240, 241, 241);
+  text-shadow: 2px 2px 3px rgb(22, 22, 22);
+  padding: 5px 0 0 0;
+}
