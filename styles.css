@@ -1,7 +1,8 @@
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2017/01/07/18/07/maldives-1961132_960_720.jpg");
+  background-image: url("https://images.pexels.com/photos/1625878/pexels-photo-1625878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: 100%;
-  font-family: "Amatic SC", cursive;
+  font-family: "Spartan", sans-serif;
+  font-weight: 200;
 }
 
 .container {
@@ -11,72 +12,74 @@ body {
   height: 80%;
   border: none;
   border-radius: 18px;
-  margin-top: 5%;
   margin-bottom: 5%;
-  background: rgba(151, 240, 240, 0.644);
+  background: rgba(72, 172, 190, 0.89);
   text-align: center;
 }
 
 img {
-  display: block;
-  margin: 10px auto;
-  max-width: 12%;
+  display: inline-block;
+  margin: 32px 0 0 155px;
+  width: 150px;
+  height: 140px;
   border-radius: 50%;
-  border: 7px solid #f06f8fe5;
-  box-shadow: 5px 5px 5px #000;
+  border: 2px solid #eeecece5;
+  box-shadow: 2px 4px 4px rgb(87, 85, 85);
 }
 
 h1 {
-  color: #ffbd69;
+  color: #f7f5f3;
   text-align: center;
-  margin: 0 auto;
-  font-size: 55px;
+  margin: -110px 280px 0 0;
+  font-size: 75px;
   text-shadow: 3px 3px 3px black;
+  font-weight: 800;
+  font-family: "Parisienne", cursive;
 }
 
 h2 {
-  color: #f06f8fe5;
+  color: #ffee00e5;
   text-align: center;
-  margin: 4px auto 20px auto;
-  font-size: 36px;
-  text-shadow: 1px 2px 3px black;
+  margin: -37px auto 10px auto;
+  font-size: 40px;
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
 }
 
 p {
-  color: rgb(11, 7, 12);
+  color: rgb(242, 247, 245);
   text-align: justify;
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 19px;
   text-indent: 2.5em;
-  line-height: 1.5;
+  line-height: 1.8;
   padding: 0 6% 0 6%;
+  text-shadow: 1px 2px 3px black;
 }
 
 a {
   text-decoration: none;
-  color: #f06f8fe5;
-  text-shadow: 2px 2px 2px rgb(8, 8, 8);
+  color: #f3f707e5;
+  text-shadow: 2px 2px 2px rgb(19, 19, 19);
 }
 
 h3 {
   display: block;
-  color: #080704;
+  color: #063326e5;
   text-align: center;
   margin: 15px auto 6px auto;
   padding: 18px 0 5px 0;
-  font-family: "Amatic SC", cursive;
-  font-size: 35px;
-  text-shadow: 2px 2px 1px rgb(226, 216, 216);
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .h3 {
   display: block;
-  color: #1a1817;
-  font-size: 35px;
+  color: #052e22e5;
+  font-size: 20px;
   text-align: center;
   margin: 0 auto;
   padding: 0 0 4px 0;
-  font-family: "Amatic SC", cursive;
 }
 
 ul {
@@ -94,15 +97,15 @@ button {
   margin: 15px 15px;
   height: 210px;
   width: 260px;
-  border-radius: 7px;
-  border: 10px solid #f06f8fe5;
+  border-radius: 4px;
+  border: 3px solid #f3f707e5;
   box-shadow: 5px 5px 5px black;
-  font-family: "Amatic SC", cursive;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 600;
   text-shadow: 3px 3px 2px black;
-  color: #f8b45b;
+  color: #ece7e1;
   transition: all 200ms ease-in-out;
+  font-family: "Parisienne", cursive;
 }
 
 button:hover {
@@ -143,8 +146,8 @@ button:hover {
 h4 {
   margin: 0 auto;
   text-align: center;
-  font-size: 25px;
-  color: black;
+  font-size: 16px;
+  color: #05291ee5;
   line-height: 1.5;
 }
 
@@ -156,19 +159,19 @@ h4 {
 
 h5 {
   display: block;
-  font-size: 25px;
+  font-size: 16px;
   padding: 0;
   margin: 0 auto;
-  color: black;
+  color: #063527e5;
 }
 
 footer {
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 19px;
   font-weight: 900;
   color: rgb(240, 241, 241);
-  text-shadow: 2px 2px 3px rgb(22, 22, 22);
+  text-shadow: 3px 3px 3px rgb(14, 13, 13);
   padding: 5px 0 0 0;
 }
